@@ -7,11 +7,10 @@ This project involves creating a dashboard in Tableau to visualize sales data of
 -- Monthly CSV Files: Data is organized into separate CSV files for each month of the year.
 
 ### Folder Structure
-(src/)[src/]: This directory contains the source code and notebooks for data preprocessing and analysis.
-(Cleaning.ipynb)[Cleaning.ipynb]: Jupyter notebook for data cleaning tasks.
-(Analysis.ipynb)[Analysis.ipynb]: Jupyter notebook for exploratory data analysis.
-(load_data/)[load_data/]: Subdirectory containing the script to merge monthly CSV files.
-(merge_data.py)[merge_data.py]: Python script to merge all monthly CSV files into one dataset.
+* (data/)[/data/]: This directory contains the both preprocessed and unpreprocessed data.
+* (Cleaning.ipynb)[/src/Cleaning.ipynb]: Jupyter notebook for data cleaning tasks.
+* (Analysis.ipynb)[/src/Analysis.ipynb]: Jupyter notebook for exploratory data analysis.
+* (.py)[/src/load_data/]: Python script to merge all monthly CSV files into one dataset.
 
 ### Data Preprocessing Steps
 * Merging Monthly Data:
